@@ -56,7 +56,7 @@ class vcGFMeter extends WPBakeryShortCode {
         vc_map( array(
             'name' => __( 'Gravity Forms Donation Progess Bar', 'js_composer' ),
             'base' => 'vc_gforms_meter',
-            'icon' => 'icon-wpb-graph',
+             'icon' => plugin_dir_url( __FILE__ ) . 'element-icon-donation-meter.svg',
             'category' => __( 'Content', 'js_composer' ),
             'description' => __( 'Animated progress bar', 'js_composer' ),
             'params' => array(
